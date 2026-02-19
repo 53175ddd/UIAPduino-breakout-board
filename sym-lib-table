@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "UIAP-Devices")(type "KiCad")(uri "${KIPRJMOD}/addons/UIAP-Devices.kicad_sym")(options "")(descr ""))
+)
