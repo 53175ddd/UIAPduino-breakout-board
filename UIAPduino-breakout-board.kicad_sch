@@ -5419,12 +5419,12 @@
 	(symbol
 		(lib_id "Jumper:Jumper_2_Open")
 		(at 152.4 52.07 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "34ff1900-ecac-4c0e-8338-d2111b491157")
 		(property "Reference" "JP1"
 			(at 152.4 45.72 0)
@@ -5557,12 +5557,12 @@
 	(symbol
 		(lib_id "Jumper:Jumper_2_Open")
 		(at 152.4 153.67 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3edb85d8-efe6-4285-8cc0-d259187a142b")
 		(property "Reference" "JP2"
 			(at 152.4 147.32 0)
