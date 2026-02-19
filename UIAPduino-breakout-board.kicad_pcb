@@ -901,7 +901,7 @@
 		(descr "TO-220F-3, Vertical, RM 2.54mm, see http://www.st.com/resource/en/datasheet/stp20nm60.pdf")
 		(tags "TO-220F-3 Vertical RM 2.54mm")
 		(property "Reference" "U3"
-			(at -1.27 -4.1675 360)
+			(at -1.27 -4.1675 0)
 			(layer "F.SilkS")
 			(uuid "bd71b050-38ba-4d22-b74b-e3c7c9c82dd2")
 			(effects
@@ -912,7 +912,7 @@
 			)
 		)
 		(property "Value" "L7805"
-			(at 2.54 2.9025 360)
+			(at 2.54 2.9025 0)
 			(layer "F.Fab")
 			(uuid "3290c699-2cff-4283-950d-339ea83bbc48")
 			(effects
@@ -1177,7 +1177,7 @@
 			(uuid "6d44b312-4890-4233-ab74-5b711a45be10")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.54 -4.1675 360)
+			(at 2.54 -4.1675 0)
 			(layer "F.Fab")
 			(uuid "3c40c873-243d-4efe-9622-8d3b5ad85e39")
 			(effects
@@ -1239,7 +1239,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.00mm, , diameter=5mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.00mm  diameter 5mm Electrolytic Capacitor")
 		(property "Reference" "C3"
-			(at -2.219888 2.54 360)
+			(at -2.219888 2.54 0)
 			(layer "F.SilkS")
 			(uuid "db438dbe-e694-4a0f-811f-c80cc067feac")
 			(effects
@@ -3007,7 +3007,7 @@
 			)
 		)
 		(property "Value" "0.22u"
-			(at 2.5 2.5 360)
+			(at 2.5 2.5 0)
 			(layer "F.Fab")
 			(uuid "f1ffe685-473d-4d0a-896a-699e3e6ec09a")
 			(effects
@@ -3202,7 +3202,7 @@
 			(uuid "b432c845-1720-4bf6-9dd1-a8c3dd06472c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.5 0 360)
+			(at 2.5 0 0)
 			(layer "F.Fab")
 			(uuid "e38fc03e-4e74-4156-9020-4123549534e0")
 			(effects
@@ -3252,7 +3252,7 @@
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 5mm width 2.5mm Capacitor")
 		(property "Reference" "C2"
-			(at 2.5 2.54 360)
+			(at 2.5 2.54 0)
 			(layer "F.SilkS")
 			(uuid "e4a9bc50-1298-4a82-b650-aba1a36cf3a8")
 			(effects
@@ -3263,7 +3263,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 2.5 2.5 360)
+			(at 2.5 2.5 0)
 			(layer "F.Fab")
 			(uuid "60916207-9a1a-4fbc-af7e-339b8d9ccea7")
 			(effects
@@ -3458,7 +3458,7 @@
 			(uuid "86555439-4621-43eb-afcb-54323acaaa8c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.5 0 360)
+			(at 2.5 0 0)
 			(layer "F.Fab")
 			(uuid "6afd9535-588f-48f9-a5c4-58422c075d23")
 			(effects
@@ -8190,7 +8190,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=1.50mm, , diameter=4mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 1.50mm  diameter 4mm Electrolytic Capacitor")
 		(property "Reference" "C4"
-			(at -2.54 0 360)
+			(at -2.54 0 0)
 			(layer "F.SilkS")
 			(uuid "94a1e5bc-d885-405f-8f3c-a697076ac3f2")
 			(effects
@@ -9514,7 +9514,7 @@
 		(descr "Through hole straight pin header, 1x20, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x20 2.54mm single row")
 		(property "Reference" "J1"
-			(at 0 2.54 -0)
+			(at 0 2.54 0)
 			(layer "F.SilkS")
 			(uuid "f082b3db-eace-4808-93b0-0cce82a96f3a")
 			(effects
@@ -10188,7 +10188,7 @@
 		(uuid "f38b1a05-b425-425b-9788-e6ec16e65aec")
 	)
 	(gr_rect
-		(start 127 62.23)
+		(start 126.365 62.23)
 		(end 182.88 118.11)
 		(stroke
 			(width 0.05)
@@ -10197,6 +10197,18 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "816daca1-ae92-4692-98f3-8604ba79f927")
+	)
+	(gr_text "https://github.com/53175ddd/UIAPduino-breakout-board"
+		(at 127 116.84 -90)
+		(layer "B.SilkS")
+		(uuid "ebd25153-60c1-4833-9c59-ff2f0cf86409")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
 	)
 	(gr_text "0/A1"
 		(at 176.53 85.09 0)
@@ -10220,8 +10232,8 @@
 			)
 		)
 	)
-	(gr_text "UIAPduino Breakout Board v1\nhttps://github.com/53175ddd"
-		(at 128.016 116.84 0)
+	(gr_text "UIAPduino Breakout Board v1"
+		(at 126.746 116.84 0)
 		(layer "F.SilkS")
 		(uuid "3472e7cb-7f01-48a6-b4de-908444b4faff")
 		(effects
