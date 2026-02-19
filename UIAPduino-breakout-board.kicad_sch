@@ -4217,7 +4217,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 152.4 52.07 0)
 			(effects
 				(font
@@ -4288,7 +4288,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical"
 			(at 210.82 45.72 0)
 			(effects
 				(font
@@ -4543,7 +4543,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical"
 			(at 210.82 132.08 0)
 			(effects
 				(font
@@ -4997,7 +4997,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "akizuki:FT234X"
 			(at 111.76 38.1 0)
 			(effects
 				(font
@@ -5071,7 +5071,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "UIAP-Devices:UIAPDUINO-PRO-MICRO-CH32V003-V1DOT4"
 			(at 152.4 58.42 0)
 			(effects
 				(font
