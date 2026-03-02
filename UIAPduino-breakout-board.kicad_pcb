@@ -10233,7 +10233,7 @@
 			)
 		)
 	)
-	(gr_text "UIAPduino Breakout Board v1"
+	(gr_text "UIAPduino Breakout Board v1.1"
 		(at 127 117.856 0)
 		(layer "F.SilkS")
 		(uuid "3472e7cb-7f01-48a6-b4de-908444b4faff")
