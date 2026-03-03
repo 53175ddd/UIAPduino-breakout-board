@@ -325,7 +325,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Open"
-			(at 0 1.9 360)
+			(at 0 1.9 0)
 			(layer "F.Fab")
 			(uuid "1b892710-a84b-4e8b-9b90-e589bc02549f")
 			(effects
@@ -9324,7 +9324,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Open"
-			(at 0 1.9 360)
+			(at 0 1.9 0)
 			(layer "F.Fab")
 			(uuid "03c9c74d-7ac3-4a74-bbb8-28bad289771b")
 			(effects
@@ -10189,8 +10189,8 @@
 		(uuid "f38b1a05-b425-425b-9788-e6ec16e65aec")
 	)
 	(gr_rect
-		(start 126.238 62.23)
-		(end 182.88 118.872)
+		(start 126.238 63.246)
+		(end 182.88 117.348)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -10200,7 +10200,7 @@
 		(uuid "816daca1-ae92-4692-98f3-8604ba79f927")
 	)
 	(gr_text "https://github.com/53175ddd/UIAPduino-breakout-board"
-		(at 127.254 117.856 -90)
+		(at 127.254 116.332 -90)
 		(layer "B.SilkS")
 		(uuid "ebd25153-60c1-4833-9c59-ff2f0cf86409")
 		(effects
@@ -10234,7 +10234,7 @@
 		)
 	)
 	(gr_text "UIAPduino Breakout Board v1.1"
-		(at 127 117.856 0)
+		(at 127 116.332 0)
 		(layer "F.SilkS")
 		(uuid "3472e7cb-7f01-48a6-b4de-908444b4faff")
 		(effects
