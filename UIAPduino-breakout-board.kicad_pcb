@@ -113,7 +113,7 @@
 		(uuid "00841400-5817-43fb-a620-40dc0cf016d2")
 		(at 133.35 63.5)
 		(property "Reference" "U1"
-			(at 0 17.145 0)
+			(at 7.366 5.08 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "37869333-56b4-437c-ba4e-34b25146f0dc")
@@ -4423,7 +4423,7 @@
 		(descr "POPULAR DESIGN")
 		(tags "UIAPduino Pro Micro CH32V003 V1.4")
 		(property "Reference" "U2"
-			(at 0 0 0)
+			(at 0 -13.716 0)
 			(layer "F.SilkS")
 			(uuid "9d7098f9-0df3-47d3-9822-56fb506b358f")
 			(effects
@@ -10470,6 +10470,17 @@
 			)
 		)
 	)
+	(gr_text "USB"
+		(at 130.81 80.518 270)
+		(layer "F.SilkS")
+		(uuid "28d69295-c334-4374-805f-bac9d0271258")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
 	(gr_text "3/SDA"
 		(at 176.53 92.71 0)
 		(layer "F.SilkS")
@@ -10497,6 +10508,17 @@
 		(at 176.53 87.63 0)
 		(layer "F.SilkS")
 		(uuid "3c7fb5a2-0b22-4ad2-bf2d-8a06ada436e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(gr_text "RX"
+		(at 176.53 80.01 0)
+		(layer "F.SilkS")
+		(uuid "417788aa-076b-4e9a-99d8-d13d17da800e")
 		(effects
 			(font
 				(size 1 1)
@@ -10559,6 +10581,28 @@
 			)
 		)
 	)
+	(gr_text "EXT"
+		(at 135.89 80.518 -90)
+		(layer "F.SilkS")
+		(uuid "6590d0ef-df0e-4c14-95b3-cdacff5c63c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(gr_text "EN"
+		(at 131.064 93.98 270)
+		(layer "F.SilkS")
+		(uuid "860ff6ca-d5dc-4154-b3b8-83de219fe29d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
 	(gr_text "9/MISO"
 		(at 176.53 107.95 0)
 		(layer "F.SilkS")
@@ -10574,6 +10618,17 @@
 		(at 176.53 71.12 0)
 		(layer "F.SilkS" knockout)
 		(uuid "909b0114-5a8c-40e8-90bc-f863d3146ec1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(gr_text "TX"
+		(at 176.53 77.47 0)
+		(layer "F.SilkS")
+		(uuid "9b70fe77-e073-44f9-a7c6-dd05b5e70025")
 		(effects
 			(font
 				(size 1 1)
